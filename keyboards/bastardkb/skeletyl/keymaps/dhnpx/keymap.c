@@ -72,17 +72,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //const uint16_t PROGMEM ld_semicolon[] = {KC_L, KC_D, COMBO_END};
 //const uint16_t PROGMEM uo_slash[] = {KC_U, KC_O, COMBO_END};
 const uint16_t PROGMEM df_esc[] = {KC_D, KC_F, COMBO_END};
-const uint16_t PROGMEM ah_ent[] = {KC_A, KC_H, COMBO_END};
+const uint16_t PROGMEM jk_ent[] = {KC_J, KC_K, COMBO_END};
 //const uint16_t PROGMEM rs_tab[] = {KC_R, KC_S, COMBO_END};
 //const uint16_t PROGMEM eh_del[] = {KC_E, KC_H, COMBO_END};
-const uint16_t PROGMEM sd_lshft[] = {KC_R, KC_T, COMBO_END};
-const uint16_t PROGMEM kl_rshft[] = {KC_E, KC_A, COMBO_END};
-const uint16_t PROGMEM mo6[] = {MO(1), KC_SPC, COMBO_END}
+const uint16_t PROGMEM sd_lshft[] = {KC_S, KC_D, COMBO_END};
+const uint16_t PROGMEM kl_rshft[] = {KC_K, KC_L, COMBO_END};
+const uint16_t PROGMEM mo6[] = {MO(1), KC_SPC, COMBO_END};
 
 combo_t key_combos[] = {
   //COMBO(uo_slash, KC_SLSH),
   //COMBO(rs_tab, KC_TAB),
-  COMBO(ah_ent, KC_ENT),
+  COMBO(jk_ent, KC_ENT),
   COMBO(df_esc, KC_ESC),
   //COMBO(eh_del, KC_DEL),
   COMBO(sd_lshft, KC_LSFT),
